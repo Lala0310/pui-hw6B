@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Fluff Stuff</title>
+
+		<link rel="stylesheet" href="./cartstyle.css"> 
+</head>
+
+	<body>
+
+		<!-- begin webpage navigation bar -->
+		<div class="heading">
+			<div class="header-content">
+
+				<!-- webpage logo in navigation bar -->
+				<button class="homebutton">
+					<img src="plogo.png" alt="Pillow Logo" width="45" height="40" style="padding-left:20px; display: inline-block"> 
+				</button>
+
+				<!-- webpage name in navigation bar -->
+				<div class="name">
+					Fluff Stuff
+				</div>
+
+				<!-- left-side webpage content in navigation bar -->
+				<div class="navbar">
+					<div class="shop">
+						<a href="index2pp.html">shop</a>
+					</div>
+						
+					<div class="about">
+							about
+					</div>
+					<div class="contact">
+							contact
+					</div>
+				</div>
+
+				<!-- search option in navigation bar -->
+				<div class="search">
+					<input placeholder="search" type="text" name="search">
+				</div>
+
+				<!-- user profile and cart content in navigation bar-->
+				<div class="profilebar">
+					<button class="profile">
+						<img class="profilebutton" src="profile.png" alt="Profile" width="20" height="19">
+					</button>
+
+					<div class="cart">
+						<img class="cartbutton" src="icon.png" alt="Cart" width="15" height="17">
+						Cart
+						<input type="button" class="counter" value="2"/>
+					</div>
+				</div>	
+
+			</div>
+		</div>
+
+		<!-- begin shopping cart content -->
+		<div class="cartpage">
+			<div class="shoppingtitle">
+				Shopping Cart
+			</div>
+
+			<!-- shopping cart item box intro -->
+			<div class="ShoppingCart">
+				<div class="Items">				
+					<div class="itemtitle">
+						Items
+					</div>
+
+					<div id="firstitem" class="selection">
+						<div class="itemquantity">
+							<div class="qtyedit">
+								<input type="number" id="quantity" name="type" placeholder="1" min="1" max="100">
+							</div>
+						</div>
+
+					<!-- shopping cart item image -->
+						<div class="itemdescription">
+							<div class="item_img">
+								<img src="p3.png" alt="Reema Pillow Image" style=" width:100%; height: 30%; padding-top:35px">
+							</div>
+
+							<!-- shopping cart item details -->
+							<div class="item_info">
+								<h1 class="itemname">Reema Round Pillow</h1>
+					        	<h2 class="itemcolor"><span style="font-size:13px;font-weight:500">Color: cozy denim</span></h2>
+					        	<h3 class="itemsize"><span style="font-size:13px;font-weight:500">Size: 20"l x 20"w </span></h3>
+					        	<h4 class="itemfill"><span style="font-size:13px;font-weight:500">Filling: memory foam</span> </h4>		        	      
+							</div>
+
+							<!-- shopping cart item options and price -->
+							<div class="itemedit">
+								<div class="col1">
+									Edit
+								</div>
+
+								<div class="col2">
+									<form onclick="return removetheItem();">
+	            					<input type="button" style="margin-left:00px;" value="Remove"/>
+	        						</form>
+								</div>
+
+								<div class="col3">
+									Save
+								</div>
+
+								<div class="col4">
+									$49.00
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div id="seconditem" class="selection2"> 
+						<div class="itemquantity">
+							<div class="qtyedit">
+								<input type="number" id="quantity2" name="type" placeholder="1" min="1" max="100">
+							</div>
+						</div>
+
+						<div class="item_img2">
+							<img src="p2.png" alt="Savannah Floor Pillow Image" style=" width:100%; height: 30%; padding-top:35px">
+						</div>
+
+						<div class="item_info2">
+							<h1 class="itemname">Savannah Floor Pillow</h1>
+					        <h2 class="itemcolor"><span style="font-size:13px;font-weight:500">Color: cozy denim</span></h2>
+					        <h3 class="itemsize"><span style="font-size:13px;font-weight:500">Size: 20"l x 20"w </span></h3>
+					        <h4 class="itemfill"><span style="font-size:13px;font-weight:500">Filling: memory foam</span> </h4>	     
+						</div>
+
+						<div class="itemedit">
+							<div class="col1">
+								Edit
+							</div>
+
+							<div class="col2">
+								<form onclick="return removetheItem2();">
+	            				<input type="button" style="margin-left:00px;" value="Remove"/>
+	        					</form>	
+							</div>
+
+							<div class="col3">
+								Save 
+							</div>
+
+							<div class="col4">
+								$49.00
+							</div>
+						</div>
+					</div>
+				</div>
+
+					<!-- begin shopping cart order summary -->
+				<div class="ordersummary">
+					<div class="orderdetails">
+						<p class="ordertitle"><span style="font-size: 18px; font-weight: 500">Order Summary</span></p>
+						<p><a>Subtotal</a><span class="price">$49.00</span></p>
+					     <p><a>Shipping</a><span class="price">$5.00</span></p>
+					     <hr>
+					    <p>Total <span class="price" style="color:black"><b>$54.00</b></span></p>
+					    <button class="checkout" style="margin-top: 50px">Checkout</button>
+					</div>
+
+					<div class="promo">
+						<p><a>Promo Code</a> <span class="price">+</span></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- begin shopping cart saved items -->
+		<div class="saveditems">
+			Your Saved Items
+		</div>
+
+		<div class="savedimg">
+       		<div class="lastrow">
+  				<div class="lastcol">
+    				<img src="p1.png" alt="Viewed1" style="width:100%">
+ 				 </div>
+
+  				<div class="lastcol">
+   					 <img src="p5.png" alt="Viewed2" style="width:97%">
+  				</div>
+
+  				<div class="lastcol">
+   					 <img src="p3.png" alt="Viewed3" style="width:100%">
+				</div>
+			</div>
+        </div>
+
+		<script src="script.js">
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+

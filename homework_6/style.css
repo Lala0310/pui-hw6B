@@ -1,0 +1,217 @@
+/*home page background*/
+
+body {
+  	background: white;
+  	margin: auto;
+}
+
+/*navigation bar*/
+
+.heading {
+	background-color: white;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+.header-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.homebutton {
+	outline: none;
+	background: none;
+	border: none;
+	position: relative;
+}
+
+.search {
+	margin: 0 auto;
+	display: inline-block;
+	padding-left: 0px;	
+}
+
+.name {
+	padding-left: 8px;
+	display: inline-block;
+	font-family: sans-serif;
+	letter-spacing: 0.05em;
+	font-size: 35px;
+	height: 60px;	
+}
+
+/*left-side navigation bar content*/
+
+.navbar {
+	display: inline-block;
+	align-items: center;
+	margin: auto;
+	padding-left: 32px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+}
+
+.shop {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	padding-right: 0px;
+}
+
+/*used to link product list page*/
+
+.shop a {
+	color: black;
+	text-decoration: none;
+}
+
+.about {
+	font-family: sans-serif;
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 37px;
+	padding-left: 36px;
+}
+
+.contact {
+	font-family: sans-serif;
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 215px;
+
+}
+
+/*profile and cart content in navigation bar*/
+
+.profilebar {
+	display: inline-block;
+	align-items: center;
+	margin: auto;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.profile {
+	outline: none;
+	background: none;
+	border: none;
+	padding-right: 20px;
+	margin: auto;
+	display: inline-block;
+}
+
+.cart {
+	outline: none;
+	background: none;
+	border: none;
+	display: inline-block;
+}
+
+/*cart item counter*/
+
+.counter {
+	background-color: white;
+	border: none;
+}
+
+/*used to link cart page*/
+
+.cart a {
+	color: black;
+	text-decoration: none;
+}
+
+/*home page main content*/
+
+.adtitle {
+  	color: #000;
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	font-weight: 400;
+  	margin: 90px;
+  	display: inline-block;
+  	height: 30px;
+  	width: 500px;
+}
+
+.shortad {
+  	color: #000;
+  	font-family: sans-serif;
+  	font-size: 16px;
+  	font-weight: 300;
+  	margin: 90px;
+  	display: inline-block;
+  	height: 30px;
+  	width: 400px; 
+}
+
+.shortad2 {
+  	color: #000;
+  	font-family: sans-serif;
+  	font-size: 17px;
+  	font-weight: 400;
+  	margin: 90px;
+  	display: inline-block;
+  	height: 0px;
+  	width: 400px;
+  	padding-bottom: 50px;
+}
+
+/*home page main content background*/
+
+.bodytext{
+	background-image: linear-gradient(#ACF0DE, #C0DED7);
+}
+
+/*main content image*/
+
+.imgad.png {
+	margin: 10px;
+	display: inline-block;
+	padding-right: 50px;
+	padding-bottom: 70px;
+}
+
+/*Bottom- layout of recently viewed items*/
+
+.column {
+	align-content: center;
+	margin: 30px;
+  	flex: 50%;
+  	padding: 5px;
+}
+
+.row {
+	align-content: center;
+	margin: 30px;
+	padding-left: 170px;
+  	display: flex;
+}
+
+/*recently viewed items title*/
+
+.imgtext {
+	padding-right: 200px;
+}
+
+/*recently viewed items images*/
+
+.imglabel {
+	font-family: sans-serif;
+  	font-size: 18px;
+   	font-weight: 400;
+	margin: 40px;
+	padding-left: 170px;
+}
+
+/*used to style search bar*/
+
+input[type=text] {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+

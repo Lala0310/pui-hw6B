@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Fluff Stuff</title>
+ 		
+	<link rel="stylesheet" href="./style3.css"> 
+</head>
+
+	<body>
+
+		<!-- begin webpage navigation bar -->
+		<div class="heading">
+			<div class="header-content">
+
+				<!-- webpage logo in navigation bar -->
+				<button class="homebutton">
+					<img src="plogo.png" alt="Pillow Logo" width="45" height="40" style="padding-left:20px; display: inline-block"> 
+				</button>
+
+				<!-- webpage name in navigation bar -->
+				<div class="name">
+					Fluff Stuff
+				</div>
+
+				<!-- left-side webpage content in navigation bar -->
+				<div class="navbar">
+					<div class="shop">
+						<a href="index2pp.html">shop</a>
+					</div>
+						
+					<div class="about">
+							about
+					</div>
+					<div class="contact">
+							contact
+					</div>
+				</div>
+
+				<!-- search option in navigation bar -->
+				<div class="search">
+					<input placeholder="search" type="text" name="search">
+				</div>
+
+				<!-- user profile and cart content in navigation bar-->
+				<div class="profilebar">
+					<button class="profile">
+						<img class="profilebutton" src="profile.png" alt="Profile" width="20" height="19">
+					</button>
+
+					<div class="cart">
+						<img class="cartbutton" src="icon.png" alt="Cart" width="15" height="17">
+						<a href="index4cart.html">Cart</a>
+						<input type="button" class="counter" value="0"/>
+					</div>
+				</div>	
+
+			</div>
+		</div>
+
+		<!-- product detail background -->
+		<div class="background">
+			<img src="pdbackground.png" alt="product" style="width:100%; ">
+
+			<!-- product detail main content layer -->
+				<div class="productdetail">
+
+					<!-- product detail main image -->
+					<div class="imgleft">
+							<img src="p22.png" id= "imgclick" alt="Image-large" style="width:92%;height: 30%; padding-left: 10px; padding-top: 35px">
+					</div>
+
+					<!-- product detail image gallery -->
+
+				<!-- 	<div class="carousel">
+		 				<div class="slides">
+		        			<img src="p2.png" alt="Small Image" style="width:50%; height:50%; padding-top: 20px">
+		        			<img src="savannah2.png" alt="Small Image2" style="width:50%; height:50%">
+		        			<img src="savannah3.png" alt="Small Image3" style="width:50%; height:50%">
+		        		</div>  
+
+		        		  <div class="controls">
+						    <div class="control prev-slide">&#9668;</div>
+						    <div class="control next-slide">&#9658;</div>
+						  </div>  
+					</div> -->
+
+					<div class="pd">
+		 				<ul class="miniimage">
+		        			<li><a href="#" title="image1"> <img src="p2.png" alt="Small Image" style="width:50%; height:50%; padding-top: 20px"></a></li>
+		        			<li><a href="#" title="image1"> <img src="savannah2.png" alt="Small Image2" style="width:50%; height:50%"></a></li>
+		        			<li><a href="#" title="image1"> <img src="savannah3.png" alt="Small Image3" style="width:50%; height:50%"></a></li>
+		        		</ul>    
+					</div>
+
+					<!-- product detail main information -->
+					<div class="detail-text">
+			       				
+			       		<h1 id="itemname1" class="productname">Savannah Floor Pillow <span style="color:#5A5A5A;font-size:10px;font-weight: 500">(5.0 Reviews)</span></h1>
+			       		<h2 class="productprice">$39.00</h2>
+			       				
+			       		<h3 id="itemsize1" class="productsize"><span style="font-size:13px;font-weight:500">Size: 20"l x 20"w</span></h3>
+
+			       		<div id="itemcolor1" class="colormenu">
+			       			<label><span style="display:flex; font-family: sans-serif; color:black; font-size: 13px">color *</span></label>
+			       			<form name="colorform" method="post">
+					  			<select id="colors" onchange="setImage(this)">
+					    			<option value="1">after school special</option>
+					    			<option value="2">morning haze</option>
+					    			<option value="3">cozy denim</option>
+					    			<option value="4">rainy day</option>
+					  			</select> 
+					  		</form>
+					  	</div>
+
+					  	<div id="itemfill1" class="f-menu">
+					  		<label><span style="display:flex; font-family: sans-serif; color:black; font-size: 13px">filling *</span></label>
+						  	<select id="fillings" onchange="setFill(this)">
+						    	<option value="1">duck-down</option>
+						    	<option value="2">hyperallergenic-poly blend</option>
+						    	<option value="3">memory foam</option>
+						  	</select> 
+
+						 	<div class="fillimg">
+						  		<img src="dd.png" alt="duck-down fill" style="width:70%; height:20%; display: flex; margin: 10px">
+						  	</div>
+						</div>
+
+						<div id="itemqty1" class="qtylist">
+							<div class="qtyadjust">
+								<div class="qtyadjust-btn">
+									<button id="down" class="default" onclick="down(0)">-</button>
+								</div>
+								<input type="text" id="quantity" value="1"/>
+								<div class="qtyadjust-btn">
+									<button id="up" class="default" onclick="up('10')">+</button>
+								</div>
+							</div>
+						</div>
+
+					  	<div class="addtocart">
+    						<button type="button" class="add" style="margin-top: 50px">add to cart</button>
+    					</div>
+
+			       	</div>
+
+			       	<!-- product detail extra description -->
+			       	<div class="moreinfo">
+			       		<div class="details">
+    						<p><b><span style="font-size:12px;font-weight:600">details</span></b></p>
+    					</div>
+
+    					<div class="description">
+        					<p><b><span style="font-size:11px;font-weight:500"> Product Sku: 59690990;</span></b></p>
+        					<p><b><span style="font-size:11px;font-weight:500">A cozy favorite, this throw pillow is constructed from a cotton waffle texture with brushed detailing.</span></b></p>
+        				</div>
+        			</div>					
+		       	</div>	       
+
+		</div>
+
+		<!-- javascript for product detail page -->
+		<script src="script.js">
+		</script>
+
+	</body>
+</html>
+
+
